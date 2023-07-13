@@ -4,13 +4,13 @@ The application is triggered from the ""Start here"" button.<br>
 After inserting the user name, the application asks the user if he/she is ready to price the option.<br>
 If the answer is yes, the userform appears. From here the user must imput the requirements to price the option, which in the case of Black-Scholes pricing model are:
 - Stock price (S0)
-– Strike price (K)
-– Risk-free rate (r)
-– Time (t)
-– Volatility (sigma)
-– Option type
-– Call/put
-– Option model
+- Strike price (K)
+- Risk-free rate (r)
+- Time (t)
+- Volatility (sigma)
+- Option type
+- Call/put
+- Option model
 <br>
 To use the Montecarlo simulation pricing model, the N° of iterations must be added. Moreover, to use the Binomial pricing model, the N° of steps must be added too.<br>
 To remember the option underlying the user is pricing, it is possible to write on the first box the ticker name.<br>
